@@ -17,15 +17,19 @@
 | **Android**<br/>**WebRTC** | **iOS 📱**<br/>**Node.js** | **Android**<br/>**UI/UX** |
 </br>
 ---
+
 </br></br>
+
  ### Development Motive
 - 실시간 프로그래밍 , 연결성 프로그래밍에 대한 경험 부족
 - 저희 학교 학부수업으로는 경험하지 못하는 주제
 - 새로운 아이디어보다는 기존에 널리 알려졌지만 부족한 지식을 공부
 </br>
 ---
+
 </br>
 </br>
+
 ### Application Introduce  
  - #### Features
    - **채팅🗣🗯💬**</br>
@@ -51,8 +55,10 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 ```
 </br>
 ---
+
 </br>
 </br>
+
 ### Development Scheduel
 
 <img width="955" alt="스크린샷 2019-07-21 오전 1 43 16" src="https://user-images.githubusercontent.com/39197978/61581439-18525a00-ab59-11e9-9be0-76b632f1c075.png">
@@ -60,6 +66,7 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 ---
 </br>
 </br>
+
 ### Program Sceen
 
 |       화면        |                           Android                            |                             iOS                              |
@@ -73,8 +80,10 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 |  **채팅방 화면** | <img width="223" alt="채팅1" src="https://user-images.githubusercontent.com/39197978/61581635-eabae000-ab5b-11e9-869a-4043fa39f0fb.png">| ![채팅2](https://user-images.githubusercontent.com/39197978/61582040-b72e8480-ab60-11e9-8b31-8724c0bc37c9.png) |
 | **영상통화 화면** | ⚠️ | <img width="261" alt="영상통화" src="https://user-images.githubusercontent.com/39197978/61582062-f361e500-ab60-11e9-895f-8fe4bca8080f.png"> |
 </br>
+
 ---
 </br>
 </br>
+
 ### DEMO
 ![demo](https://user-images.githubusercontent.com/39197978/61581292-58b0d880-ab57-11e9-8518-3da8e4dce36a.gif)
