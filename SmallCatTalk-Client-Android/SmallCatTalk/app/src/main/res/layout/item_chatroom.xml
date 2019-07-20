@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/icon_account"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/chatroomitem_imageview"/>
+
+    <TextView
+        android:fontFamily="@font/baeminfont"
+        android:text="대화명"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/chatroomitem_textview_chatroomname"
+        android:layout_toRightOf="@+id/chatroomitem_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:fontFamily="@font/baeminfont"
+        android:id="@+id/chatroomitem_textview_chatroomlastmessage"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/chatroomitem_imageview"
+        android:layout_below="@+id/chatroomitem_textview_chatroomname"
+        android:text="마지막 메시지"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:fontFamily="@font/baeminfont"
+        android:id="@+id/chatroomitem_textview_chatroomlastmessagetime"
+        android:layout_alignParentRight="true"
+        android:text="마지막메시지 시간"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/chatroomitem_textview_unreadcount"
+        android:visibility="invisible"
+        android:backgroundTint="#ff0000"
+        android:gravity="center"
+        android:background="@drawable/button_background"
+        android:textColor="#ffffff"
+        android:text="1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/chatroomitem_textview_chatroomlastmessagetime"
+        android:layout_width="20dp"
+        android:layout_height="22dp" />
+
+</RelativeLayout>

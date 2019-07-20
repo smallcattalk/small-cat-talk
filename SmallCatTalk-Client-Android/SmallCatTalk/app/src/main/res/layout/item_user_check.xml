@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/Iv_profile_forCheck"/>
+    <TextView
+        android:fontFamily="@font/baeminfont"
+        android:layout_toRightOf="@+id/frienditem_imageview"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/Tv_userName_forCheck"
+        android:textSize="15dp"
+        android:text="아이디"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="30dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkbox"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

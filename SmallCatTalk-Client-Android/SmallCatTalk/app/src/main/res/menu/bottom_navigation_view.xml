@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_people"
+        android:checked="true"
+        android:title="친구목록"
+        android:icon="@drawable/icon_people"></item>
+
+    <item
+        android:id="@+id/action_chat"
+        android:title="채팅"
+        android:icon="@drawable/icon_chat"></item>
+
+    <item
+        android:id="@+id/action_setting"
+        android:title="설정"
+        android:icon="@drawable/icon_setting"></item>
+
+</menu>

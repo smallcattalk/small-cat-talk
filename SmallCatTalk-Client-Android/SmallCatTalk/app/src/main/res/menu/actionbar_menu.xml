@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:itemIconTint="@color/colorYellow"
+        app:showAsAction="ifRoom"
+        android:id="@+id/item_newfriend"
+        android:icon="@drawable/icon_userplus"
+        android:title="친구 추가"></item>
+
+    <item
+        app:itemIconTint="@color/colorYellow"
+        app:showAsAction="ifRoom"
+        android:id="@+id/item_newroom"
+        android:icon="@drawable/icon_plus"
+        android:title="새 채팅방"></item>
+</menu>

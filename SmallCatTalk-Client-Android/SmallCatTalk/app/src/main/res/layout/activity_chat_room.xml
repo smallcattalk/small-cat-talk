@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorYellow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatRoomActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chatroomactivity_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/chatrooomactivity_linearlayout"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="1dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/colorBackground"
+        android:id="@+id/chatrooomactivity_linearlayout"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_gravity="center"
+            app:backgroundTint="#000000"
+            app:elevation="0dp"
+            app:fabSize="mini"
+            android:id="@+id/chatroomactivity_floatingbutton_videoCall"
+            android:src="@drawable/ic_video_call2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_gravity="center"
+            app:backgroundTint="#000000"
+            app:elevation="0dp"
+            app:fabSize="mini"
+            android:id="@+id/chatroomactivity_floatingbutton_photo"
+            android:src="@drawable/ic_add_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:layout_weight="8"
+            android:id="@+id/chatroomactivity_edittext_message"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_gravity="center"
+            app:backgroundTint="#000000"
+            app:elevation="0dp"
+            app:fabSize="mini"
+            android:id="@+id/chatroomactivity_floatingbutton_send"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_icon_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

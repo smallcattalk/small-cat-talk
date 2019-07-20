@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/chatroomitem_recive_imageview_profile"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/icon_account"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:text="111"
+                android:layout_toRightOf="@id/chatroomitem_recive_imageview_profile"
+                android:id="@+id/chatroomitem_recive_textview_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.github.library.bubbleview.BubbleTextView
+                android:text="1111111888111111111"
+                android:layout_below="@+id/chatroomitem_recive_textview_id"
+                android:id="@+id/chatroomitem_recive_textview_message"
+                android:layout_toRightOf="@id/chatroomitem_recive_imageview_profile"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:angle="8dp"
+                app:arrowWidth="8dp"
+                app:arrowHeight="10dp"
+                app:arrowPosition="6dp"
+                app:arrowLocation="left"
+                app:arrowCenter="false"
+                app:bubbleColor="@color/colorBackground"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:textSize="13dp"
+            android:text="메세지 시간"
+            android:id="@+id/chatroomitem_recive_textview_messagetime"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

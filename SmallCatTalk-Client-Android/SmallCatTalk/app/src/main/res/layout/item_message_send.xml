@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+    <TextView
+        android:textSize="13dp"
+        android:layout_gravity="bottom"
+        android:text="메시지 시간"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.github.library.bubbleview.BubbleTextView
+        android:layout_marginLeft="5dp"
+        android:text="1111111111111111111111111111"
+        android:id="@+id/chatroomitem_send_textview_message"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:angle="10dp"
+        app:arrowWidth="8dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="6dp"
+        app:arrowLocation="right"
+        app:arrowCenter="false"
+        app:bubbleColor="@color/colorBackground"
+        />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

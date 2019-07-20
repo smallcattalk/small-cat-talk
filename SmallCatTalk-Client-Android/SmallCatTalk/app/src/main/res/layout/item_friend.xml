@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/frienditem_imageview"/>
+    <TextView
+        android:fontFamily="@font/baeminfont"
+        android:layout_toRightOf="@+id/frienditem_imageview"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/frienditem_name"
+        android:textSize="15dp"
+        android:text="아이디"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:background="@color/colorBackground"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="20dp">
+
+    <TextView
+        android:fontFamily="@font/baeminfont"
+        android:textSize="12dp"
+        android:textColor="@color/colorYellow"
+        android:id="@+id/frienditem_message"
+        android:text="상태메시지"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
