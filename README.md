@@ -1,7 +1,6 @@
 # 작은 고양이 톡 
 ## ![icon 복사본](https://user-images.githubusercontent.com/39197978/61582434-075c1580-ab66-11e9-8d8e-2c2aebf05481.png)
 ![](https://img.shields.io/badge/team-small_cat_talk-yellow.svg) ![](https://img.shields.io/badge/contributor-3-green.svg) </br>
-![](https://img.shields.io/badge/Android-java-green.svg?Android=plastic&logo=android=&java=plastic&logo=java
 ---
 ## Index
 > - <a href="#Contributor">Contributor</a><br/>
