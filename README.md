@@ -2,7 +2,7 @@
 ## ![icon 복사본](https://user-images.githubusercontent.com/39197978/61582434-075c1580-ab66-11e9-8d8e-2c2aebf05481.png)
 ![](https://img.shields.io/badge/team-small_cat_talk-yellow.svg) ![](https://img.shields.io/badge/contributor-3-green.svg) ![](https://img.shields.io/badge/version-1.0.0-blue.svg)  </br>
 ---
-## Index
+## Index 📋
 > - <a href="#Contributor">Contributor</a><br/>
 > - <a href="#Development-Motive">Development Motive</a>
 > - <a href="#Application-Introduce">Application Introduce</a>
@@ -11,7 +11,7 @@
 > - <a href="#System-Diagram">System Diagram</a><br/>
 > - <a href="#DEMO">DEMO</a>
 
-## Contributor
+## Contributor 👩‍💻👨‍💻
 
 |          [방 효 근](https://github.com/bhg1994)          |         [이 동 영](https://github.com/O-O-wl)         |         [정 원 교](https://github.com/devwonkyo)          |
 | :------------------------: | :-----------------------: | :-----------------------: |
@@ -23,7 +23,7 @@
 
 </br></br>
 
- ### Development Motive
+ ### Development Motive 💡
 - 실시간 프로그래밍 , 연결성 프로그래밍에 대한 경험 부족
 - 저희 학교 학부수업으로는 경험하지 못하는 주제
 - 새로운 아이디어보다는 기존에 널리 알려졌지만 부족한 지식을 공부
@@ -34,7 +34,7 @@
 </br>
 </br>
 
-### Application Introduce  
+### Application Introduce 🎙
  - #### Features
    - **채팅🗣🗯💬**</br>
   소켓통신을 이용한 실시간 채팅. 개인 대화, 단체 대화
@@ -64,7 +64,7 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 </br>
 </br>
 
-### Development Scheduel
+### Development Scheduel 🗓
 
 <img width="955" alt="스크린샷 2019-07-21 오전 1 43 16" src="https://user-images.githubusercontent.com/39197978/61581439-18525a00-ab59-11e9-9be0-76b632f1c075.png">
 </br>
@@ -74,7 +74,7 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 </br>
 </br>
 
-### User Interface
+### User Interface 🖼
 
 |       화면        |                           Android                            |                             iOS                              |
 | :---------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -93,5 +93,5 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 </br>
 </br>
 
-### DEMO
+### DEMO 📱
 ![demo](https://user-images.githubusercontent.com/39197978/61581292-58b0d880-ab57-11e9-8518-3da8e4dce36a.gif)
