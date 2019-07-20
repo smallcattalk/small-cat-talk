@@ -3,13 +3,13 @@
 ![](https://img.shields.io/badge/team-small_cat_talk-yellow.svg) ![](https://img.shields.io/badge/contributor-3-green.svg) ![](https://img.shields.io/badge/version-1.0.0-blue.svg)  </br>
 ---
 ## Index 📋
-> - <a href="#Contributor">Contributor</a><br/>
-> - <a href="#Development-Motive">Development Motive</a>
-> - <a href="#Application-Introduce">Application Introduce</a>
-> - <a href="#Development-Scheduel">Development Scheduel</a><br/>
-> - <a href="#User-Interface">User Interface</a><br/>
+> - <a href="#Contributor-👩‍💻👨‍💻">Contributor</a><br/>
+> - <a href="#Development-Motive-💡">Development Motive</a>
+> - <a href="#Application-Introduce-🎙">Application Introduce</a>
+> - <a href="#Development-Scheduel-🗓">Development Scheduel</a><br/>
+> - <a href="#User-Interface-🖼">User Interface</a><br/>
 > - <a href="#System-Diagram">System Diagram</a><br/>
-> - <a href="#DEMO">DEMO</a>
+> - <a href="#DEMO-📱">DEMO</a>
 
 ## Contributor 👩‍💻👨‍💻
 
