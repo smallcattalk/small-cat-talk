@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta charset="UTF-8">
+  <style type="text/css">
+    .wrap {
+      position: relative;
+      /*감싸는 레이어에 포지션 속성을 잡아주는 게 필수!(relative, absolute, fixed 중 택1*/
+      width: 1000px;
+      height: 1000px;
+      left: -15px;
+      background: #F66;
+      text-align: center;
+      line-height: 100px;
+      margin: 100px auto;
+      padding-right: 100px;
+      color: #FFFFCC;
+      font-size: 12px;
+    }
+
+    .over {
+      position: absolute;
+      top: 1000px;
+      left: -15px;
+      /*위에 올라가는 레이어의 포지션은 top, bottom 둘 중 하나, left, right 둘 중 하나의 속성을 선택하여 잡아준다.*/
+      width: 300px;
+      height: 300px;
+      background: #fff187;
+      text-align: left;
+      line-height: 300px;
+  }
+  </style>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>SMTalk</title>
+
+  <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<body style="background-color:#fff187">
+  <div style="background-color:#fff187">
+
+  <h1 style="color : #000000 ; text-align: center ;font-family: 'BMJUA' " height=" 150px">작은 고양이톡 <img
+      src="icon.png" width="150px" style=" vertical-align: middle" /></h2>
+
+  <div id="videos">
+    <div><video class="wrap" id="remoteVideo" style="background-color : #000000" autoplay playsinline>
+       </video>
+      <div><video class="over" id="localVideo" style=" background-color : #3d3a3a" autoplay muted playsinline></video>
+     </div>
+     </div>
+  </div>
+
+  <!-- This file is automatically added/served when running "node index.js". -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="js/main.js"></script>
+</div>
+</body>
+
+</html>

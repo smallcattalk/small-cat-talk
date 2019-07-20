@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/ldcpaul/Downloads/Project/&#x110c;&#x1161;&#x11a8;&#x110b;&#x1173;&#x11ab;&#x1100;&#x1169;&#x110b;&#x1163;&#x11bc;&#x110b;&#x1175;&#x1110;&#x1169;&#x11a8;/SocketChat/SocketChat/VC/SettingVC.swift">
+   </FileRef>
+   <FileRef
+      location = "group:SocketChat.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

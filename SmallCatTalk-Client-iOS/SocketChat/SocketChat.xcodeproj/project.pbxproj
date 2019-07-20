@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0F2C7022748EB900A8C253 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F2C6F22748EB900A8C253 /* SocketIOManager.swift */; };
+		0E1C0690224DEB2300292EAF /* NetworkProcesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C068F224DEB2300292EAF /* NetworkProcesser.swift */; };
+		0E1C0692224DEB4D00292EAF /* Finder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C0691224DEB4D00292EAF /* Finder.swift */; };
+		0E32BB1B2241E8700096C847 /* BMJUA_otf.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB1A2241E8640096C847 /* BMJUA_otf.otf */; };
+		0E32BB2F2241EADC0096C847 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB282241EAD90096C847 /* hello.png */; };
+		0E32BB302241EADC0096C847 /* MaxPixel.freegreatpicture.com-Light-Cat-Paw-Icon-Badge-Claw-2692346.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB292241EAD90096C847 /* MaxPixel.freegreatpicture.com-Light-Cat-Paw-Icon-Badge-Claw-2692346.png */; };
+		0E32BB312241EADC0096C847 /* cara-de-gato-negro.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB2A2241EADA0096C847 /* cara-de-gato-negro.png */; };
+		0E32BB322241EADC0096C847 /* footmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB2B2241EADA0096C847 /* footmark.png */; };
+		0E32BB332241EADC0096C847 /* accept.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB2C2241EADA0096C847 /* accept.png */; };
+		0E32BB342241EADC0096C847 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB2D2241EADB0096C847 /* cancel.png */; };
+		0E32BB352241EADC0096C847 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB2E2241EADB0096C847 /* default.png */; };
+		0E32BB372241ECEF0096C847 /* cathello.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB362241ECEE0096C847 /* cathello.png */; };
+		0E32BB392241ED880096C847 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB382241ED880096C847 /* LoginVC.swift */; };
+		0E32BB3B2241ED960096C847 /* JoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB3A2241ED950096C847 /* JoinVC.swift */; };
+		0E32BB3D2241EDC10096C847 /* ChatRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB3C2241EDC10096C847 /* ChatRoomVC.swift */; };
+		0E32BB432241F0360096C847 /* UserVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB422241F0360096C847 /* UserVO.swift */; };
+		0E32BB452241F0460096C847 /* RoomVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB442241F0450096C847 /* RoomVO.swift */; };
+		0E32BB472241F04E0096C847 /* ChatVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB462241F04E0096C847 /* ChatVO.swift */; };
+		0E32BB4A2241F0980096C847 /* MyProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB492241F0980096C847 /* MyProfileCell.swift */; };
+		0E32BB4C2241F0A90096C847 /* FriendsProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB4B2241F0A90096C847 /* FriendsProfileCell.swift */; };
+		0E32BB4E2241F0BB0096C847 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB4D2241F0BB0096C847 /* RoomCell.swift */; };
+		0E32BB502241F0CB0096C847 /* MyChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB4F2241F0CB0096C847 /* MyChatCell.swift */; };
+		0E32BB522241F0DB0096C847 /* FriendsChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB512241F0DB0096C847 /* FriendsChatCell.swift */; };
+		0E32BB542241F4030096C847 /* RoomListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB532241F4030096C847 /* RoomListVC.swift */; };
+		0E32BB5622424AE10096C847 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB5522424AE00096C847 /* Button.png */; };
+		0E32BB58224265D80096C847 /* FriendListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB57224265D80096C847 /* FriendListVC.swift */; };
+		0E32BB5A22426AC20096C847 /* LanchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E32BB5922426AC20096C847 /* LanchScreenVC.swift */; };
+		0E32BB5C224361010096C847 /* LaunchScreen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E32BB5B224361010096C847 /* LaunchScreen2.storyboard */; };
+		0E3A9F1D2240E7CE00276A4B /* user_group_man_woman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F1A2240E7CE00276A4B /* user_group_man_woman@2x.png */; };
+		0E3A9F1E2240E7CE00276A4B /* chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F1B2240E7CE00276A4B /* chat@2x.png */; };
+		0E3A9F1F2240E7CE00276A4B /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F1C2240E7CE00276A4B /* settings@2x.png */; };
+		0E3A9F302240EA2000276A4B /* image_file@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F202240EA1C00276A4B /* image_file@3x.png */; };
+		0E3A9F312240EA2000276A4B /* syncronize@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F212240EA1C00276A4B /* syncronize@3x.png */; };
+		0E3A9F322240EA2000276A4B /* add_user_male@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F222240EA1C00276A4B /* add_user_male@3x.png */; };
+		0E3A9F332240EA2000276A4B /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F232240EA1C00276A4B /* menu@3x.png */; };
+		0E3A9F342240EA2000276A4B /* video_call@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F242240EA1D00276A4B /* video_call@3x.png */; };
+		0E3A9F352240EA2000276A4B /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F252240EA1D00276A4B /* search@3x.png */; };
+		0E3A9F362240EA2000276A4B /* phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F262240EA1D00276A4B /* phone@2x.png */; };
+		0E3A9F372240EA2000276A4B /* attach@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F272240EA1D00276A4B /* attach@3x.png */; };
+		0E3A9F382240EA2000276A4B /* people@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F282240EA1E00276A4B /* people@3x.png */; };
+		0E3A9F392240EA2000276A4B /* albums.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F292240EA1E00276A4B /* albums.png */; };
+		0E3A9F3A2240EA2000276A4B /* compact_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F2A2240EA1E00276A4B /* compact_camera@3x.png */; };
+		0E3A9F3B2240EA2000276A4B /* paper_plane@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F2B2240EA1E00276A4B /* paper_plane@3x.png */; };
+		0E3A9F3C2240EA2000276A4B /* game_controller@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F2C2240EA1F00276A4B /* game_controller@3x.png */; };
+		0E3A9F3D2240EA2000276A4B /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F2D2240EA1F00276A4B /* star@2x.png */; };
+		0E3A9F3E2240EA2000276A4B /* coins@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F2E2240EA1F00276A4B /* coins@3x.png */; };
+		0E3A9F3F2240EA2000276A4B /* microphone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F2F2240EA1F00276A4B /* microphone@3x.png */; };
+		0E3A9F412240ED9700276A4B /* bell@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F402240ED9500276A4B /* bell@3x.png */; };
+		0E3A9F432240EDAA00276A4B /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F422240EDA900276A4B /* cancel@3x.png */; };
+		0E3A9F452240EDED00276A4B /* speech_buble@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F442240EDED00276A4B /* speech_buble@3x.png */; };
+		0E3A9F472240EE2500276A4B /* plus@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F462240EE2500276A4B /* plus@3x.png */; };
+		0E3A9F492240EF6F00276A4B /* audio@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F482240EF6E00276A4B /* audio@3x.png */; };
+		0E3A9F4B2240EF7600276A4B /* attention@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F4A2240EF7600276A4B /* attention@3x.png */; };
+		0E3A9F4D2240EF9800276A4B /* exit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A9F4C2240EF9800276A4B /* exit@3x.png */; };
+		0E3F092E22489E3D00E3C2A7 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3F092D22489E3D00E3C2A7 /* SearchVC.swift */; };
+		0E44C0D9224E25EA0046C9E5 /* ProfileImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E44C0D8224E25EA0046C9E5 /* ProfileImageVC.swift */; };
+		0E44C0DB224E273C0046C9E5 /* closeBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E44C0DA224E273A0046C9E5 /* closeBtn.png */; };
+		0E5FEA672240E20500A000C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5FEA662240E20500A000C3 /* AppDelegate.swift */; };
+		0E5FEA6C2240E20500A000C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5FEA6A2240E20500A000C3 /* Main.storyboard */; };
+		0E5FEA6E2240E20700A000C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5FEA6D2240E20700A000C3 /* Assets.xcassets */; };
+		0E5FEA712240E20700A000C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5FEA6F2240E20700A000C3 /* LaunchScreen.storyboard */; };
+		0E6BE36622455621007235EA /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BE36522455621007235EA /* Session.swift */; };
+		0E6BE36A224559AE007235EA /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BE369224559AE007235EA /* SettingVC.swift */; };
+		0E6BE36D22456478007235EA /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BE36C22456478007235EA /* SettingCell.swift */; };
+		0E6BE36F22458219007235EA /* send_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6BE36E22458217007235EA /* send_button.png */; };
+		0E6BE3712245F60E007235EA /* KeyboardControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BE3702245F60D007235EA /* KeyboardControl.swift */; };
+		0E6BE3732246588B007235EA /* UserDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BE3722246588B007235EA /* UserDetailVC.swift */; };
+		0E6BE37522465B76007235EA /* AlertMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BE37422465B76007235EA /* AlertMaker.swift */; };
+		0E852CF52288642F007CFC2F /* MyImgChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E852CF42288642F007CFC2F /* MyImgChatCell.swift */; };
+		0E852CF722886487007CFC2F /* FriendImgChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E852CF622886487007CFC2F /* FriendImgChatCell.swift */; };
+		0EF0416A2288984300E012C6 /* camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF041692288984300E012C6 /* camera@3x.png */; };
+		0EF0416D2288CD5300E012C6 /* slr-camera-icon-18-ffffff-344.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0416B2288CD5200E012C6 /* slr-camera-icon-18-ffffff-344.png */; };
+		0EF0416E2288CD5300E012C6 /* Lovepik_com-401119285-cat-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0416C2288CD5200E012C6 /* Lovepik_com-401119285-cat-camera.png */; };
+		F9178956D13845079249CFFA /* Pods_SocketChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE95A07017164D009967D6 /* Pods_SocketChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E0F2C6F22748EB900A8C253 /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		0E1C068F224DEB2300292EAF /* NetworkProcesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProcesser.swift; sourceTree = "<group>"; };
+		0E1C0691224DEB4D00292EAF /* Finder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finder.swift; sourceTree = "<group>"; };
+		0E32BB1A2241E8640096C847 /* BMJUA_otf.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA_otf.otf; sourceTree = "<group>"; };
+		0E32BB282241EAD90096C847 /* hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello.png; sourceTree = "<group>"; };
+		0E32BB292241EAD90096C847 /* MaxPixel.freegreatpicture.com-Light-Cat-Paw-Icon-Badge-Claw-2692346.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MaxPixel.freegreatpicture.com-Light-Cat-Paw-Icon-Badge-Claw-2692346.png"; sourceTree = "<group>"; };
+		0E32BB2A2241EADA0096C847 /* cara-de-gato-negro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cara-de-gato-negro.png"; sourceTree = "<group>"; };
+		0E32BB2B2241EADA0096C847 /* footmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footmark.png; sourceTree = "<group>"; };
+		0E32BB2C2241EADA0096C847 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accept.png; sourceTree = "<group>"; };
+		0E32BB2D2241EADB0096C847 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		0E32BB2E2241EADB0096C847 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		0E32BB362241ECEE0096C847 /* cathello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cathello.png; sourceTree = "<group>"; };
+		0E32BB382241ED880096C847 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0E32BB3A2241ED950096C847 /* JoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinVC.swift; sourceTree = "<group>"; };
+		0E32BB3C2241EDC10096C847 /* ChatRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomVC.swift; sourceTree = "<group>"; };
+		0E32BB422241F0360096C847 /* UserVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVO.swift; sourceTree = "<group>"; };
+		0E32BB442241F0450096C847 /* RoomVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomVO.swift; sourceTree = "<group>"; };
+		0E32BB462241F04E0096C847 /* ChatVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVO.swift; sourceTree = "<group>"; };
+		0E32BB492241F0980096C847 /* MyProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileCell.swift; sourceTree = "<group>"; };
+		0E32BB4B2241F0A90096C847 /* FriendsProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsProfileCell.swift; sourceTree = "<group>"; };
+		0E32BB4D2241F0BB0096C847 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		0E32BB4F2241F0CB0096C847 /* MyChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatCell.swift; sourceTree = "<group>"; };
+		0E32BB512241F0DB0096C847 /* FriendsChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsChatCell.swift; sourceTree = "<group>"; };
+		0E32BB532241F4030096C847 /* RoomListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListVC.swift; sourceTree = "<group>"; };
+		0E32BB5522424AE00096C847 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		0E32BB57224265D80096C847 /* FriendListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListVC.swift; sourceTree = "<group>"; };
+		0E32BB5922426AC20096C847 /* LanchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanchScreenVC.swift; sourceTree = "<group>"; };
+		0E32BB5B224361010096C847 /* LaunchScreen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen2.storyboard; sourceTree = "<group>"; };
+		0E3A9F1A2240E7CE00276A4B /* user_group_man_woman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_group_man_woman@2x.png"; path = "../../../../SocketIO-Chat/SocketIO-Chat/res/user_group_man_woman@2x.png"; sourceTree = "<group>"; };
+		0E3A9F1B2240E7CE00276A4B /* chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chat@2x.png"; path = "../../../../SocketIO-Chat/SocketIO-Chat/res/chat@2x.png"; sourceTree = "<group>"; };
+		0E3A9F1C2240E7CE00276A4B /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings@2x.png"; path = "../../../../SocketIO-Chat/SocketIO-Chat/res/settings@2x.png"; sourceTree = "<group>"; };
+		0E3A9F202240EA1C00276A4B /* image_file@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_file@3x.png"; sourceTree = "<group>"; };
+		0E3A9F212240EA1C00276A4B /* syncronize@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncronize@3x.png"; sourceTree = "<group>"; };
+		0E3A9F222240EA1C00276A4B /* add_user_male@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_user_male@3x.png"; sourceTree = "<group>"; };
+		0E3A9F232240EA1C00276A4B /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		0E3A9F242240EA1D00276A4B /* video_call@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_call@3x.png"; sourceTree = "<group>"; };
+		0E3A9F252240EA1D00276A4B /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
+		0E3A9F262240EA1D00276A4B /* phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone@2x.png"; sourceTree = "<group>"; };
+		0E3A9F272240EA1D00276A4B /* attach@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attach@3x.png"; sourceTree = "<group>"; };
+		0E3A9F282240EA1E00276A4B /* people@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "people@3x.png"; sourceTree = "<group>"; };
+		0E3A9F292240EA1E00276A4B /* albums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = albums.png; sourceTree = "<group>"; };
+		0E3A9F2A2240EA1E00276A4B /* compact_camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compact_camera@3x.png"; sourceTree = "<group>"; };
+		0E3A9F2B2240EA1E00276A4B /* paper_plane@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper_plane@3x.png"; sourceTree = "<group>"; };
+		0E3A9F2C2240EA1F00276A4B /* game_controller@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_controller@3x.png"; sourceTree = "<group>"; };
+		0E3A9F2D2240EA1F00276A4B /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		0E3A9F2E2240EA1F00276A4B /* coins@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coins@3x.png"; sourceTree = "<group>"; };
+		0E3A9F2F2240EA1F00276A4B /* microphone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone@3x.png"; sourceTree = "<group>"; };
+		0E3A9F402240ED9500276A4B /* bell@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell@3x.png"; sourceTree = "<group>"; };
+		0E3A9F422240EDA900276A4B /* cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@3x.png"; sourceTree = "<group>"; };
+		0E3A9F442240EDED00276A4B /* speech_buble@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speech_buble@3x.png"; sourceTree = "<group>"; };
+		0E3A9F462240EE2500276A4B /* plus@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@3x.png"; sourceTree = "<group>"; };
+		0E3A9F482240EF6E00276A4B /* audio@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio@3x.png"; sourceTree = "<group>"; };
+		0E3A9F4A2240EF7600276A4B /* attention@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attention@3x.png"; sourceTree = "<group>"; };
+		0E3A9F4C2240EF9800276A4B /* exit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exit@3x.png"; sourceTree = "<group>"; };
+		0E3F092D22489E3D00E3C2A7 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		0E44C0D8224E25EA0046C9E5 /* ProfileImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageVC.swift; sourceTree = "<group>"; };
+		0E44C0DA224E273A0046C9E5 /* closeBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeBtn.png; sourceTree = "<group>"; };
+		0E5FEA632240E20500A000C3 /* SocketChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E5FEA662240E20500A000C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E5FEA6B2240E20500A000C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E5FEA6D2240E20700A000C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E5FEA702240E20700A000C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E5FEA722240E20700A000C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6BE36522455621007235EA /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		0E6BE369224559AE007235EA /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingVC.swift; path = "/Users/ldcpaul/Downloads/Project/작은고양이톡/SocketChat/SocketChat/VC/SettingVC.swift"; sourceTree = "<absolute>"; };
+		0E6BE36C22456478007235EA /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		0E6BE36E22458217007235EA /* send_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send_button.png; sourceTree = "<group>"; };
+		0E6BE3702245F60D007235EA /* KeyboardControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardControl.swift; sourceTree = "<group>"; };
+		0E6BE3722246588B007235EA /* UserDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailVC.swift; sourceTree = "<group>"; };
+		0E6BE37422465B76007235EA /* AlertMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMaker.swift; sourceTree = "<group>"; };
+		0E852CF42288642F007CFC2F /* MyImgChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImgChatCell.swift; sourceTree = "<group>"; };
+		0E852CF622886487007CFC2F /* FriendImgChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendImgChatCell.swift; sourceTree = "<group>"; };
+		0EF041692288984300E012C6 /* camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@3x.png"; sourceTree = "<group>"; };
+		0EF0416B2288CD5200E012C6 /* slr-camera-icon-18-ffffff-344.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slr-camera-icon-18-ffffff-344.png"; sourceTree = "<group>"; };
+		0EF0416C2288CD5200E012C6 /* Lovepik_com-401119285-cat-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lovepik_com-401119285-cat-camera.png"; sourceTree = "<group>"; };
+		19D5BE5CAFCD276D88B53AE7 /* Pods-SocketChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketChat.debug.xcconfig"; path = "Target Support Files/Pods-SocketChat/Pods-SocketChat.debug.xcconfig"; sourceTree = "<group>"; };
+		9ED2B7216720CA3114DB5A2B /* Pods-SocketChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketChat.release.xcconfig"; path = "Target Support Files/Pods-SocketChat/Pods-SocketChat.release.xcconfig"; sourceTree = "<group>"; };
+		BFBE95A07017164D009967D6 /* Pods_SocketChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocketChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E5FEA602240E20500A000C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9178956D13845079249CFFA /* Pods_SocketChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0F2C6E22748E9D00A8C253 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F2C6F22748EB900A8C253 /* SocketIOManager.swift */,
+			);
+			path = SocketIO;
+			sourceTree = "<group>";
+		};
+		0E32BB402241EE1D0096C847 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				0E44C0D8224E25EA0046C9E5 /* ProfileImageVC.swift */,
+				0E6BE369224559AE007235EA /* SettingVC.swift */,
+				0E32BB3C2241EDC10096C847 /* ChatRoomVC.swift */,
+				0E32BB532241F4030096C847 /* RoomListVC.swift */,
+				0E32BB382241ED880096C847 /* LoginVC.swift */,
+				0E32BB3A2241ED950096C847 /* JoinVC.swift */,
+				0E32BB57224265D80096C847 /* FriendListVC.swift */,
+				0E32BB5922426AC20096C847 /* LanchScreenVC.swift */,
+				0E6BE3722246588B007235EA /* UserDetailVC.swift */,
+				0E3F092D22489E3D00E3C2A7 /* SearchVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		0E32BB412241EE280096C847 /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				0E32BB422241F0360096C847 /* UserVO.swift */,
+				0E32BB442241F0450096C847 /* RoomVO.swift */,
+				0E32BB462241F04E0096C847 /* ChatVO.swift */,
+			);
+			path = VO;
+			sourceTree = "<group>";
+		};
+		0E32BB482241F05D0096C847 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				0E32BB492241F0980096C847 /* MyProfileCell.swift */,
+				0E32BB4B2241F0A90096C847 /* FriendsProfileCell.swift */,
+				0E32BB4D2241F0BB0096C847 /* RoomCell.swift */,
+				0E32BB4F2241F0CB0096C847 /* MyChatCell.swift */,
+				0E32BB512241F0DB0096C847 /* FriendsChatCell.swift */,
+				0E852CF42288642F007CFC2F /* MyImgChatCell.swift */,
+				0E852CF622886487007CFC2F /* FriendImgChatCell.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		0E3A9F192240E7AF00276A4B /* res */ = {
+			isa = PBXGroup;
+			children = (
+				0EF0416C2288CD5200E012C6 /* Lovepik_com-401119285-cat-camera.png */,
+				0EF0416B2288CD5200E012C6 /* slr-camera-icon-18-ffffff-344.png */,
+				0EF041692288984300E012C6 /* camera@3x.png */,
+				0E44C0DA224E273A0046C9E5 /* closeBtn.png */,
+				0E6BE36E22458217007235EA /* send_button.png */,
+				0E32BB5522424AE00096C847 /* Button.png */,
+				0E32BB362241ECEE0096C847 /* cathello.png */,
+				0E32BB2C2241EADA0096C847 /* accept.png */,
+				0E32BB2D2241EADB0096C847 /* cancel.png */,
+				0E32BB2A2241EADA0096C847 /* cara-de-gato-negro.png */,
+				0E32BB2E2241EADB0096C847 /* default.png */,
+				0E32BB2B2241EADA0096C847 /* footmark.png */,
+				0E32BB282241EAD90096C847 /* hello.png */,
+				0E32BB292241EAD90096C847 /* MaxPixel.freegreatpicture.com-Light-Cat-Paw-Icon-Badge-Claw-2692346.png */,
+				0E32BB1A2241E8640096C847 /* BMJUA_otf.otf */,
+				0E3A9F402240ED9500276A4B /* bell@3x.png */,
+				0E3A9F222240EA1C00276A4B /* add_user_male@3x.png */,
+				0E3A9F442240EDED00276A4B /* speech_buble@3x.png */,
+				0E3A9F292240EA1E00276A4B /* albums.png */,
+				0E3A9F272240EA1D00276A4B /* attach@3x.png */,
+				0E3A9F2E2240EA1F00276A4B /* coins@3x.png */,
+				0E3A9F2A2240EA1E00276A4B /* compact_camera@3x.png */,
+				0E3A9F2C2240EA1F00276A4B /* game_controller@3x.png */,
+				0E3A9F202240EA1C00276A4B /* image_file@3x.png */,
+				0E3A9F232240EA1C00276A4B /* menu@3x.png */,
+				0E3A9F2F2240EA1F00276A4B /* microphone@3x.png */,
+				0E3A9F462240EE2500276A4B /* plus@3x.png */,
+				0E3A9F422240EDA900276A4B /* cancel@3x.png */,
+				0E3A9F2B2240EA1E00276A4B /* paper_plane@3x.png */,
+				0E3A9F482240EF6E00276A4B /* audio@3x.png */,
+				0E3A9F282240EA1E00276A4B /* people@3x.png */,
+				0E3A9F262240EA1D00276A4B /* phone@2x.png */,
+				0E3A9F252240EA1D00276A4B /* search@3x.png */,
+				0E3A9F2D2240EA1F00276A4B /* star@2x.png */,
+				0E3A9F4A2240EF7600276A4B /* attention@3x.png */,
+				0E3A9F212240EA1C00276A4B /* syncronize@3x.png */,
+				0E3A9F242240EA1D00276A4B /* video_call@3x.png */,
+				0E3A9F1B2240E7CE00276A4B /* chat@2x.png */,
+				0E3A9F4C2240EF9800276A4B /* exit@3x.png */,
+				0E3A9F1C2240E7CE00276A4B /* settings@2x.png */,
+				0E3A9F1A2240E7CE00276A4B /* user_group_man_woman@2x.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		0E5FEA5A2240E20500A000C3 = {
+			isa = PBXGroup;
+			children = (
+				0E5FEA652240E20500A000C3 /* SocketChat */,
+				0E5FEA642240E20500A000C3 /* Products */,
+				8A1D69A3032527E2027A4819 /* Pods */,
+				C6FD329C3BCBDD706D6257A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E5FEA642240E20500A000C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E5FEA632240E20500A000C3 /* SocketChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E5FEA652240E20500A000C3 /* SocketChat */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F2C6E22748E9D00A8C253 /* SocketIO */,
+				0E6BE36B2245645A007235EA /* SettingCell */,
+				0E6BE364224555F6007235EA /* Util */,
+				0E32BB482241F05D0096C847 /* TableCell */,
+				0E32BB412241EE280096C847 /* VO */,
+				0E32BB402241EE1D0096C847 /* VC */,
+				0E3A9F192240E7AF00276A4B /* res */,
+				0E5FEA662240E20500A000C3 /* AppDelegate.swift */,
+				0E5FEA6A2240E20500A000C3 /* Main.storyboard */,
+				0E5FEA6D2240E20700A000C3 /* Assets.xcassets */,
+				0E5FEA6F2240E20700A000C3 /* LaunchScreen.storyboard */,
+				0E32BB5B224361010096C847 /* LaunchScreen2.storyboard */,
+				0E5FEA722240E20700A000C3 /* Info.plist */,
+			);
+			path = SocketChat;
+			sourceTree = "<group>";
+		};
+		0E6BE364224555F6007235EA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BE36522455621007235EA /* Session.swift */,
+				0E6BE3702245F60D007235EA /* KeyboardControl.swift */,
+				0E6BE37422465B76007235EA /* AlertMaker.swift */,
+				0E1C068F224DEB2300292EAF /* NetworkProcesser.swift */,
+				0E1C0691224DEB4D00292EAF /* Finder.swift */,
+			);
+			name = Util;
+			path = U;
+			sourceTree = "<group>";
+		};
+		0E6BE36B2245645A007235EA /* SettingCell */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BE36C22456478007235EA /* SettingCell.swift */,
+			);
+			path = SettingCell;
+			sourceTree = "<group>";
+		};
+		8A1D69A3032527E2027A4819 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19D5BE5CAFCD276D88B53AE7 /* Pods-SocketChat.debug.xcconfig */,
+				9ED2B7216720CA3114DB5A2B /* Pods-SocketChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6FD329C3BCBDD706D6257A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFBE95A07017164D009967D6 /* Pods_SocketChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E5FEA622240E20500A000C3 /* SocketChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5FEA752240E20700A000C3 /* Build configuration list for PBXNativeTarget "SocketChat" */;
+			buildPhases = (
+				CDFC6A8618C49BBE2FB6CDFE /* [CP] Check Pods Manifest.lock */,
+				0E5FEA5F2240E20500A000C3 /* Sources */,
+				0E5FEA602240E20500A000C3 /* Frameworks */,
+				0E5FEA612240E20500A000C3 /* Resources */,
+				FA4DC95483754D22E576614D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketChat;
+			productName = SocketChat;
+			productReference = 0E5FEA632240E20500A000C3 /* SocketChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E5FEA5B2240E20500A000C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "부엉이";
+				TargetAttributes = {
+					0E5FEA622240E20500A000C3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E5FEA5E2240E20500A000C3 /* Build configuration list for PBXProject "SocketChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E5FEA5A2240E20500A000C3;
+			productRefGroup = 0E5FEA642240E20500A000C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E5FEA622240E20500A000C3 /* SocketChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E5FEA612240E20500A000C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3A9F332240EA2000276A4B /* menu@3x.png in Resources */,
+				0E3A9F432240EDAA00276A4B /* cancel@3x.png in Resources */,
+				0E3A9F392240EA2000276A4B /* albums.png in Resources */,
+				0E3A9F452240EDED00276A4B /* speech_buble@3x.png in Resources */,
+				0EF0416A2288984300E012C6 /* camera@3x.png in Resources */,
+				0E5FEA712240E20700A000C3 /* LaunchScreen.storyboard in Resources */,
+				0E32BB372241ECEF0096C847 /* cathello.png in Resources */,
+				0E3A9F3B2240EA2000276A4B /* paper_plane@3x.png in Resources */,
+				0EF0416D2288CD5300E012C6 /* slr-camera-icon-18-ffffff-344.png in Resources */,
+				0E3A9F372240EA2000276A4B /* attach@3x.png in Resources */,
+				0E3A9F1F2240E7CE00276A4B /* settings@2x.png in Resources */,
+				0E3A9F3D2240EA2000276A4B /* star@2x.png in Resources */,
+				0E3A9F3A2240EA2000276A4B /* compact_camera@3x.png in Resources */,
+				0E5FEA6E2240E20700A000C3 /* Assets.xcassets in Resources */,
+				0E3A9F382240EA2000276A4B /* people@3x.png in Resources */,
+				0E32BB332241EADC0096C847 /* accept.png in Resources */,
+				0E32BB5622424AE10096C847 /* Button.png in Resources */,
+				0E3A9F312240EA2000276A4B /* syncronize@3x.png in Resources */,
+				0E3A9F472240EE2500276A4B /* plus@3x.png in Resources */,
+				0E32BB342241EADC0096C847 /* cancel.png in Resources */,
+				0E3A9F3C2240EA2000276A4B /* game_controller@3x.png in Resources */,
+				0E3A9F4D2240EF9800276A4B /* exit@3x.png in Resources */,
+				0E32BB322241EADC0096C847 /* footmark.png in Resources */,
+				0E3A9F3E2240EA2000276A4B /* coins@3x.png in Resources */,
+				0E3A9F342240EA2000276A4B /* video_call@3x.png in Resources */,
+				0EF0416E2288CD5300E012C6 /* Lovepik_com-401119285-cat-camera.png in Resources */,
+				0E3A9F302240EA2000276A4B /* image_file@3x.png in Resources */,
+				0E32BB1B2241E8700096C847 /* BMJUA_otf.otf in Resources */,
+				0E32BB352241EADC0096C847 /* default.png in Resources */,
+				0E32BB302241EADC0096C847 /* MaxPixel.freegreatpicture.com-Light-Cat-Paw-Icon-Badge-Claw-2692346.png in Resources */,
+				0E3A9F412240ED9700276A4B /* bell@3x.png in Resources */,
+				0E3A9F362240EA2000276A4B /* phone@2x.png in Resources */,
+				0E5FEA6C2240E20500A000C3 /* Main.storyboard in Resources */,
+				0E6BE36F22458219007235EA /* send_button.png in Resources */,
+				0E3A9F322240EA2000276A4B /* add_user_male@3x.png in Resources */,
+				0E3A9F492240EF6F00276A4B /* audio@3x.png in Resources */,
+				0E32BB2F2241EADC0096C847 /* hello.png in Resources */,
+				0E3A9F352240EA2000276A4B /* search@3x.png in Resources */,
+				0E3A9F4B2240EF7600276A4B /* attention@3x.png in Resources */,
+				0E3A9F3F2240EA2000276A4B /* microphone@3x.png in Resources */,
+				0E32BB5C224361010096C847 /* LaunchScreen2.storyboard in Resources */,
+				0E3A9F1D2240E7CE00276A4B /* user_group_man_woman@2x.png in Resources */,
+				0E32BB312241EADC0096C847 /* cara-de-gato-negro.png in Resources */,
+				0E3A9F1E2240E7CE00276A4B /* chat@2x.png in Resources */,
+				0E44C0DB224E273C0046C9E5 /* closeBtn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDFC6A8618C49BBE2FB6CDFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocketChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4DC95483754D22E576614D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocketChat/Pods-SocketChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocketChat/Pods-SocketChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E5FEA5F2240E20500A000C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E32BB3B2241ED960096C847 /* JoinVC.swift in Sources */,
+				0E852CF52288642F007CFC2F /* MyImgChatCell.swift in Sources */,
+				0E32BB452241F0460096C847 /* RoomVO.swift in Sources */,
+				0E44C0D9224E25EA0046C9E5 /* ProfileImageVC.swift in Sources */,
+				0E32BB502241F0CB0096C847 /* MyChatCell.swift in Sources */,
+				0E32BB522241F0DB0096C847 /* FriendsChatCell.swift in Sources */,
+				0E6BE3732246588B007235EA /* UserDetailVC.swift in Sources */,
+				0E32BB4C2241F0A90096C847 /* FriendsProfileCell.swift in Sources */,
+				0E32BB432241F0360096C847 /* UserVO.swift in Sources */,
+				0E1C0692224DEB4D00292EAF /* Finder.swift in Sources */,
+				0E32BB58224265D80096C847 /* FriendListVC.swift in Sources */,
+				0E6BE36D22456478007235EA /* SettingCell.swift in Sources */,
+				0E32BB3D2241EDC10096C847 /* ChatRoomVC.swift in Sources */,
+				0E32BB542241F4030096C847 /* RoomListVC.swift in Sources */,
+				0E0F2C7022748EB900A8C253 /* SocketIOManager.swift in Sources */,
+				0E5FEA672240E20500A000C3 /* AppDelegate.swift in Sources */,
+				0E1C0690224DEB2300292EAF /* NetworkProcesser.swift in Sources */,
+				0E3F092E22489E3D00E3C2A7 /* SearchVC.swift in Sources */,
+				0E6BE36A224559AE007235EA /* SettingVC.swift in Sources */,
+				0E852CF722886487007CFC2F /* FriendImgChatCell.swift in Sources */,
+				0E32BB4A2241F0980096C847 /* MyProfileCell.swift in Sources */,
+				0E32BB472241F04E0096C847 /* ChatVO.swift in Sources */,
+				0E6BE36622455621007235EA /* Session.swift in Sources */,
+				0E32BB5A22426AC20096C847 /* LanchScreenVC.swift in Sources */,
+				0E32BB4E2241F0BB0096C847 /* RoomCell.swift in Sources */,
+				0E32BB392241ED880096C847 /* LoginVC.swift in Sources */,
+				0E6BE37522465B76007235EA /* AlertMaker.swift in Sources */,
+				0E6BE3712245F60E007235EA /* KeyboardControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E5FEA6A2240E20500A000C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5FEA6B2240E20500A000C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E5FEA6F2240E20700A000C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5FEA702240E20700A000C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E5FEA732240E20700A000C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E5FEA742240E20700A000C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E5FEA762240E20700A000C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D5BE5CAFCD276D88B53AE7 /* Pods-SocketChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BQHKQSA4Y;
+				INFOPLIST_FILE = SocketChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developer.OOwl.SocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E5FEA772240E20700A000C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED2B7216720CA3114DB5A2B /* Pods-SocketChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BQHKQSA4Y;
+				INFOPLIST_FILE = SocketChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = developer.OOwl.SocketChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E5FEA5E2240E20500A000C3 /* Build configuration list for PBXProject "SocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5FEA732240E20700A000C3 /* Debug */,
+				0E5FEA742240E20700A000C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E5FEA752240E20700A000C3 /* Build configuration list for PBXNativeTarget "SocketChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E5FEA762240E20700A000C3 /* Debug */,
+				0E5FEA772240E20700A000C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E5FEA5B2240E20500A000C3 /* Project object */;
+}

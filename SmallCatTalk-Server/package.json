@@ -1,0 +1,36 @@
+{
+  "name": "sockettalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node node_modules/.bin/mocha TDD/app.spec",
+    "start": "node app"
+
+
+  },
+  "author": "O-O-wl",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.4",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "death": "^1.1.0",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "passport": "^0.4.0",
+    "passport-kakao": "0.0.5",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}

@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.8.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Socket.IO-Client-Swift (14.0.0):
+    - Starscream (~> 3.0.6)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - FMDB
+  - Socket.IO-Client-Swift (~> 14.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - FMDB
+    - Socket.IO-Client-Swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Socket.IO-Client-Swift: 21e6a8a23a7d367d5ddfab6cbbd3c679cf3c25d6
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: ab1cdd61c62b33ce0b54ae683605359fadb1ec5b
+
+COCOAPODS: 1.6.0
