@@ -4,7 +4,7 @@
 ---
 ## Index 📋
 > - <a href="#Contributor-👩‍💻👨‍💻">Contributor</a><br/>
-> - <a href="#💡Development-Motive">Development Motive</a>
+> - <a href="#Development-Motive">Development Motive</a>
 > - <a href="#Application-Introduce-🎙">Application Introduce</a>
 > - <a href="#Development-Scheduel-🗓">Development Scheduel</a><br/>
 > - <a href="#User-Interface-🖼">User Interface</a><br/>
