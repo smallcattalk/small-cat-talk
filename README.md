@@ -2,7 +2,10 @@
 ---
 ## Index
 > - <a href="#Contributor">Contributor</a><br/>
+> - <a href="#Development Motive">Development Motive</a>
+> - <a href="#Application Introduce">Application Introduce</a>
 > - <a href="#Development Scheduel">Development Scheduel</a><br/>
+> - <a href="#Program Sceen">Program Sceen</a><br/>
 > - <a href="#System Diagram">System Diagram</a><br/>
 > - <a href="#DEMO">DEMO</a>
 
@@ -14,8 +17,17 @@
 | **Android**<br/>**WebRTC** | **iOS 📱**<br/>**Node.js** | **Android**<br/>**UI/UX** |
 
 ---
-### Introduce  
- - #### 주요 기능
+
+ ### Development Motive
+- 실시간 프로그래밍 , 연결성 프로그래밍에 대한 경험 부족
+- 저희 학교 학부수업으로는 경험하지 못하는 주제
+- 새로운 아이디어보다는 기존에 널리 알려졌지만 부족한 지식을 공부
+
+---
+
+
+### Application Introduce  
+ - #### Features
    - **채팅🗣🗯💬**</br>
   소켓통신을 이용한 실시간 채팅. 개인 대화, 단체 대화
 
@@ -28,23 +40,40 @@
    - **친구 추가,삭제 👥**</br>
  특정 유저를 친구 목록에 추가, 삭제하여 관리가능
 
+ - #### Why Small Cat Talk?
+  ```
+  저희는 웹 소켓을 이용한 채팅 어플리케이션입니다.
+어플리케이션 이름은 “작은고양이 톡”으로 SOCKET(小+CAT)발음에서 착안 하였습니다.
+ 어플 아이콘은 고양이 아이콘으로 정했습니다.
+현재 시중에 나와있는 카카오톡을 타겟 어플로 지정하여 개발하고 있으며
+서버를 이용한 로그인 서비스 , 개인대화 , 단체대화, 이미지파일 전송, 영상통화 기능까지 생각하고 있습니다.
+android 와 IOS 두가지 버전으로 제작 중입니다. 
+```
 ---
 
 ### Development Scheduel
 
 <img width="955" alt="스크린샷 2019-07-21 오전 1 43 16" src="https://user-images.githubusercontent.com/39197978/61581439-18525a00-ab59-11e9-9be0-76b632f1c075.png">
----
 
-<figure><table>
-<thead>
-<tr><th style='text-align:center;' >화면</th><th style='text-align:center;' >Android</th><th style='text-align:center;' >iOS</th></tr></thead>
-<tbody style='height:250px;'><tr height ="290" ><td style='text-align:center;' ><strong>런치스크린</strong></td><td style='text-align:center;' ><img width="290" alt="스크린샷 2019-07-21 오전 2 07 16" src="https://user-images.githubusercontent.com/39197978/61581681-46856900-ab5c-11e9-81a4-eb5d81a15593.png"></td><td style='text-align:center;' ><img width="225" alt="런치스크린2" src="https://user-images.githubusercontent.com/39197978/61581629-e989b300-ab5b-11e9-82ae-444c324ed080.png"></td></tr><tr><td style='text-align:center;' ><strong>로그인 화면</strong></td><td style='text-align:center;' ><img width="280" alt="로그인1" src="https://user-images.githubusercontent.com/39197978/61581630-e989b300-ab5b-11e9-9616-6ca18a379d7c.png"></td><td style='text-align:center;' ><img width="242" alt="로그인2" src="https://user-images.githubusercontent.com/39197978/61581631-ea224980-ab5b-11e9-9dec-62377d2fd9b8.png"></td></tr><tr><td style='text-align:center;' ><strong>친구목록 화면</strong></td><td style='text-align:center;' ><img width="379" alt="친구목록1" src="https://user-images.githubusercontent.com/39197978/61581640-eb537680-ab5b-11e9-87fe-572dc01b57b8.png"></td><td style='text-align:center;' ><img src='https://user-images.githubusercontent.com/39197978/61581641-ebec0d00-ab5b-11e9-80c6-cd03e69a6a80.png' alt='친구목록2' referrerPolicy='no-referrer' /></td></tr><tr><td style='text-align:center;' ><strong>프로필 화면</strong></td><td style='text-align:center;' ><img width="286" alt="프로필1" src="https://user-images.githubusercontent.com/39197978/61581642-ebec0d00-ab5b-11e9-816a-ff2edae80ca9.png"></td><td style='text-align:center;' ><img src='https://user-images.githubusercontent.com/39197978/61581643-ebec0d00-ab5b-11e9-8011-360e2ea2fd41.png' alt='프로필2' referrerPolicy='no-referrer' /></td></tr><tr><td style='text-align:center;' ><strong>친구검색 화면</strong></td><td style='text-align:center;' ><img width="289" alt="친구검색1" src="https://user-images.githubusercontent.com/39197978/61581639-eb537680-ab5b-11e9-815a-284ad09093de.png"></td><td style='text-align:center;' >-</td></tr><tr><td style='text-align:center;' ><strong>채팅방 화면</strong></td><td style='text-align:center;' ><img width="293" alt="채팅1" src="https://user-images.githubusercontent.com/39197978/61581635-eabae000-ab5b-11e9-869a-4043fa39f0fb.png"></td><td style='text-align:center;' ><img src='https://user-images.githubusercontent.com/39197978/61581638-eb537680-ab5b-11e9-8f37-31bc8ba96cec.png' alt='채팅2' referrerPolicy='no-referrer' /></td></tr><tr><td style='text-align:center;' ><strong>영상통화 화면</strong></td><td style='text-align:center;' >-</td><td style='text-align:center;' ><img width="568" alt="영상통화" src="https://user-images.githubusercontent.com/39197978/61581634-eabae000-ab5b-11e9-8b80-02ab655df6a8.png"></td></tr></tbody>
-</table></figure>
+---
+### Program Sceen
+
+|       화면        |                           Android                            |                             iOS                              |
+| :---------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  **런치스크린**   | <img width="290" alt="스크린샷 2019-07-21 오전 2 07 16" src="https://user-images.githubusercontent.com/39197978/61581681-46856900-ab5c-11e9-81a4-eb5d81a15593.png"> | <img width="225" alt="런치스크린2" src="https://user-images.githubusercontent.com/39197978/61581629-e989b300-ab5b-11e9-82ae-444c324ed080.png"> |
+|  **로그인 화면**  | <img width="280" alt="로그인1" src="https://user-images.githubusercontent.com/39197978/61581630-e989b300-ab5b-11e9-9616-6ca18a379d7c.png"> | <img width="242" alt="로그인2" src="https://user-images.githubusercontent.com/39197978/61581631-ea224980-ab5b-11e9-9dec-62377d2fd9b8.png"> |
+| **친구목록 화면** | <img width="249" alt="친구목록1" src="https://user-images.githubusercontent.com/39197978/61581640-eb537680-ab5b-11e9-87fe-572dc01b57b8.png"> | ![친구목록2](https://user-images.githubusercontent.com/39197978/61582041-b72e8480-ab60-11e9-8424-3f1ba753619c.png) |
+|  **프로필 화면**  | <img width="286" alt="프로필1" src="https://user-images.githubusercontent.com/39197978/61581642-ebec0d00-ab5b-11e9-816a-ff2edae80ca9.png"> | ![프로필2](https://user-images.githubusercontent.com/39197978/61582042-b7c71b00-ab60-11e9-9bf9-e3a05e00ddd8.png) |
+| **친구검색 화면** | <img width="289" alt="친구검색1" src="https://user-images.githubusercontent.com/39197978/61581639-eb537680-ab5b-11e9-815a-284ad09093de.png"> |                              -                               |
+|  **방목록 화면**  | <img width="286" alt="방목록1" src="https://user-images.githubusercontent.com/39197978/61582147-f6a9a080-ab61-11e9-80af-65e1d68ea873.png">| ![방목록2](https://user-images.githubusercontent.com/39197978/61582039-b72e8480-ab60-11e9-8a8e-665bc2a88323.png) |
+|  **채팅방 화면** | <img width="223" alt="채팅1" src="https://user-images.githubusercontent.com/39197978/61581635-eabae000-ab5b-11e9-869a-4043fa39f0fb.png">| ![채팅2](https://user-images.githubusercontent.com/39197978/61582040-b72e8480-ab60-11e9-8b31-8724c0bc37c9.png) |
+| **영상통화 화면** | - | <img width="261" alt="영상통화" src="https://user-images.githubusercontent.com/39197978/61582062-f361e500-ab60-11e9-895f-8fe4bca8080f.png"> |
+
+
+
+
 
 
 ---
 ### DEMO
 ![demo](https://user-images.githubusercontent.com/39197978/61581292-58b0d880-ab57-11e9-8518-3da8e4dce36a.gif)
-
-
-
