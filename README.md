@@ -36,7 +36,8 @@
 </br>
 
 ### Application Introduce 🎙
-#### `작은고양이 ` ![icon 복사본](https://user-images.githubusercontent.com/39197978/61582434-075c1580-ab66-11e9-8d8e-2c2aebf05481.png) 
+#### `작은고양이 톡 `
+![icon 복사본](https://user-images.githubusercontent.com/39197978/61582434-075c1580-ab66-11e9-8d8e-2c2aebf05481.png) 
 
  - #### Features
    - **채팅🗣🗯💬**</br>
