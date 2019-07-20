@@ -16,6 +16,7 @@
 |<img width="160" alt="스크린샷 2019-07-21 오전 12 57 26" src="https://user-images.githubusercontent.com/39197978/61581086-8ea08d80-ab54-11e9-8313-18911275d3a4.png">|<img width="160" alt="스크린샷 2019-07-21 오전 1 16 12" src="https://user-images.githubusercontent.com/39197978/61581121-28683a80-ab55-11e9-98bf-84de08ea6486.png">|<img width="158" alt="스크린샷 2019-07-21 오전 1 21 12" src="https://user-images.githubusercontent.com/39197978/61581174-da076b80-ab55-11e9-9321-7b1632d7bd0f.png">|
 | **Android**<br/>**WebRTC** | **iOS 📱**<br/>**Node.js** | **Android**<br/>**UI/UX** |
 </br>
+
 ---
 
 </br></br>
@@ -25,6 +26,7 @@
 - 저희 학교 학부수업으로는 경험하지 못하는 주제
 - 새로운 아이디어보다는 기존에 널리 알려졌지만 부족한 지식을 공부
 </br>
+
 ---
 
 </br>
@@ -54,6 +56,7 @@
 android 와 IOS 두가지 버전으로 제작 중입니다. 
 ```
 </br>
+
 ---
 
 </br>
@@ -63,7 +66,9 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 
 <img width="955" alt="스크린샷 2019-07-21 오전 1 43 16" src="https://user-images.githubusercontent.com/39197978/61581439-18525a00-ab59-11e9-9be0-76b632f1c075.png">
 </br>
+
 ---
+
 </br>
 </br>
 
@@ -82,6 +87,7 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 </br>
 
 ---
+
 </br>
 </br>
 
