@@ -1,4 +1,5 @@
-# 작은 고양이 톡 ![icon 복사본](https://user-images.githubusercontent.com/39197978/61582422-db409480-ab65-11e9-9476-814de05deb41.png)
+# 작은 고양이 톡 
+![icon 복사본](https://user-images.githubusercontent.com/39197978/61582434-075c1580-ab66-11e9-8d8e-2c2aebf05481.png)
 ---
 ## Index
 > - <a href="#Contributor">Contributor</a><br/>
