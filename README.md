@@ -21,7 +21,7 @@
 
 ---
 
-</br></br>
+</br>
 
  ### Development Motive 💡
 - 실시간 프로그래밍 , 연결성 프로그래밍에 대한 경험 부족
@@ -31,7 +31,6 @@
 
 ---
 
-</br>
 </br>
 
 ### Application Introduce 🎙
@@ -62,7 +61,6 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 ---
 
 </br>
-</br>
 
 ### Development Scheduel 🗓
 
@@ -72,7 +70,6 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 ---
 
 </br>
-</br>
 
 ### System Diagram 🌐
 <img width="951" alt="스크린샷 2019-07-21 오전 1 39 25" src="https://user-images.githubusercontent.com/39197978/61584582-2918c500-ab85-11e9-936f-80b870a2503e.png">
@@ -81,7 +78,6 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 
 ---
 
-</br>
 </br>
 
 ### User Interface 🖼
@@ -100,7 +96,6 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 
 ---
 
-</br>
 </br>
 
 ### DEMO 📱
