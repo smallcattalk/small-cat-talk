@@ -1,12 +1,13 @@
 # 작은 고양이 톡 
 ## ![icon 복사본](https://user-images.githubusercontent.com/39197978/61582434-075c1580-ab66-11e9-8d8e-2c2aebf05481.png)
+https://img.shields.io/badge/<team>-<small cat talk>-<yellow>.svg
 ---
 ## Index
 > - <a href="#Contributor">Contributor</a><br/>
 > - <a href="#Development-Motive">Development Motive</a>
 > - <a href="#Application-Introduce">Application Introduce</a>
 > - <a href="#Development-Scheduel">Development Scheduel</a><br/>
-> - <a href="#Program-Sceen">Program Sceen</a><br/>
+> - <a href="#User-Interface">User Interface</a><br/>
 > - <a href="#System-Diagram">System Diagram</a><br/>
 > - <a href="#DEMO">DEMO</a>
 
@@ -73,7 +74,7 @@ android 와 IOS 두가지 버전으로 제작 중입니다.
 </br>
 </br>
 
-### Program Sceen
+### User Interface
 
 |       화면        |                           Android                            |                             iOS                              |
 | :---------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
