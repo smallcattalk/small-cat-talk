@@ -4,7 +4,7 @@
 ---
 ## Index 📋
 > - <a href="#Contributor-👩‍💻👨‍💻">Contributor</a><br/>
-> - <a href="#Development-Motive">Development Motive</a>
+> - <a href="#Development-Motive-">Development Motive</a>
 > - <a href="#Application-Introduce-🎙">Application Introduce</a>
 > - <a href="#Development-Scheduel-🗓">Development Scheduel</a><br/>
 > - <a href="#User-Interface-🖼">User Interface</a><br/>
@@ -25,7 +25,7 @@
 
 </br>
 
- ### 💡Development Motive
+ ### Development Motive 💡
 - 실시간 프로그래밍 , 연결성 프로그래밍에 대한 경험 부족
 - 저희 학교 학부수업으로는 경험하지 못하는 주제
 - 새로운 아이디어보다는 기존에 널리 알려졌지만 부족한 지식을 공부
